@@ -2,7 +2,7 @@
   <div>
     <header>
       <div class="logo-title">
-        <nuxt-img src="~assets/logoR&C.png" alt="logo-R&C" height="50px" />
+        <img src="~/static/logoR&C.png" alt="logo-R&C" height="50px" />
         <h1>Review&Critic</h1>
       </div>
       <div class="search-signup">
@@ -15,9 +15,9 @@
           />
           <!-- <input type="submit" name="submit" class="submit" value="Search"> -->
         </form>
-        <nuxt-img
+        <img
           class="search-button"
-          src="~/assets/img/buttons/seachButton.png"
+          src="~/static/seachButton.png"
           alt="search-button"
           height="20px"
         />
@@ -211,16 +211,16 @@ nav.top-nav > ul > li > a {
     opacity: 1;
   }
 
-//   &::after {
-//     content: "›";
-//     position: absolute;
-//     color: #ED3E44;
-//     font-size: 24px;
-//     font-weight: bold;
-//     transform: rotate(90deg);
-//     top: -5px;
-//     right: -15px;
-//   }
+  //   &::after {
+  //     content: "›";
+  //     position: absolute;
+  //     color: #ED3E44;
+  //     font-size: 24px;
+  //     font-weight: bold;
+  //     transform: rotate(90deg);
+  //     top: -5px;
+  //     right: -15px;
+  //   }
 }
 
 .dropdown-menu {
