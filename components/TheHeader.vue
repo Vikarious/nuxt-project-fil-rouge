@@ -1,10 +1,12 @@
 <template lang="">
   <div>
     <header>
+      <nuxt-link to="/">
       <div class="logo-title">
         <img src="~/static/logoR&C.png" alt="logo-R&C" height="50px" />
         <h1>Review&Critic</h1>
       </div>
+      </nuxt-link>
       <div class="search-signup">
         <form action="/form/submit" method="GET">
           <input
@@ -21,7 +23,9 @@
           alt="search-button"
           height="20px"
         />
-        <button class="sign-in" type="button">Sign In</button>
+        <nuxt-link to="/Signup">
+          <button class="sign-in" type="button">Sign In</button>
+        </nuxt-link>
       </div>
     </header>
 
@@ -119,6 +123,24 @@
 export default {}
 </script>
 <style lang="scss">
+h1 {
+  width: 180px;
+  font-size: 22px;
+  padding-left: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+h2 {
+  text-decoration: underline 2px;
+  margin-left: 15px;
+}
+
+h3 {
+  height: 10px;
+  margin-top: 0;
+}
+
 header {
   height: 70px;
   display: flex;
